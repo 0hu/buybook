@@ -1,8 +1,10 @@
+import {Link} from "react-router-dom";
+
 const UserBar = () => {
   return (
     <div>
-      <div>회원 가입</div>
-      <div>로그인</div>
+      <Link to="/SignUpPage">회원 가입</Link>
+      <Link to="/LoginPage">로그인</Link>
     </div>
   );
 };
